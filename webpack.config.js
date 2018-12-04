@@ -19,7 +19,7 @@ module.exports = {
     // fileの出力設定
     output: {
         // 出力ファイルのディレクトリ名
-        path: `${__dirname}/public/js`,
+        path: `${__dirname}/public/`,
         // 出力ファイル名
         filename: 'bundle.js'
     },
