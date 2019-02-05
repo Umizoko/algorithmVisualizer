@@ -130,7 +130,7 @@ function insertSort(array){
         for(let c = 0; c <= index; c++){
           if(_array[index] < _array[c]){
             // remove
-            const remove = _array.splice(index, 1);
+            const remove = _array.splice(index, 1)[0];
 
             // insert
             _array.splice(c, 0, remove);
